@@ -1,0 +1,50 @@
+{
+  "name": "@unifiedfactory/ngx-translate-gettext-loader",
+  "version": "0.0.1",
+  "description": "ngx-translate translation loader for .po and .mo files",
+  "main": "dist/index",
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UnifiedFactory/ngx-translate-gettext-loader"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "angular",
+    "angular 2",
+    "i18n",
+    "translate",
+    "ngx-translate",
+    "po",
+    "mo",
+    "pot",
+    "gettext",
+    "get-text"
+  ],
+  "author": "Rafal2228 <rafal2228@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/UnifiedFactory/ngx-translate-gettext-loader",
+  "dependencies": {
+    "gettext-parser": "^1.3.0"
+  },
+  "peerDependencies": {
+    "@ngx-translate/core": ">=6.0.0",
+    "@angular/core": ">=4.3.0",
+    "@angular/common": ">=4.3.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^4.4.5",
+    "@angular/core": "^4.4.5",
+    "@angular/platform-browser": "^4.4.5",
+    "@ngx-translate/core": "^8.0.0",
+    "rxjs": "^5.4.3",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.3",
+    "zone.js": "^0.8.18"
+  }
+}
