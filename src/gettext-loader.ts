@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { TranslateLoader } from '@ngx-translate/core';
-import { DEFAULT_CONTEXT, DEFAULT_PREFIX, DEFAULT_SUFFIX } from 'constants';
 import * as gettext from 'gettext-parser';
 import { Observable } from 'rxjs/Observable';
+import { DEFAULT_CONTEXT, DEFAULT_PREFIX, DEFAULT_SUFFIX } from './constants';
 import { getTextSuffix } from './models';
 
 export class GettextLoader implements TranslateLoader {
