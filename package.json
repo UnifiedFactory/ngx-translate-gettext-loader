@@ -1,6 +1,6 @@
 {
   "name": "@unifiedfactory/ngx-translate-gettext-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ngx-translate translation loader for .po and .mo files",
   "main": "dist/index",
   "files": [

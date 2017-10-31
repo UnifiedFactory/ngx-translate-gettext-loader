@@ -35,11 +35,11 @@ export class GettextLoader implements TranslateLoader {
 
     switch (suffix) {
       case '.po': {
-        translations = gettext.po.parse(contents, 'utf-8');
+        translations = gettext.po.parse(contents, 'utf-8').translations;
         break;
       }
       case '.mo': {
-        translations = gettext.mo.parse(contents, 'utf-8');
+        translations = gettext.mo.parse(contents, 'utf-8').translations;
         break;
       }
       default: {
